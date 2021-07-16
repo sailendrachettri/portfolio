@@ -6,7 +6,7 @@
         font-size: 1.5rem;
     }
     #profile-pic img{
-        width: 50%;
+        width: 40%;
     }
     .work{
         width: 36%;
@@ -26,5 +26,41 @@
     }
     #right-contact input{
         
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #profile-pic{
+        width: 100%;
+        display: flex;
+        position:static;
+        justify-content: center;
+        align-items: center;
+    }
+    #profile-pic img{
+        width: 60%;
+    }
+    .work-container{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work-container .work{
+        width: 65%;
+    }
+    #heading-2{
+        font-size: 1.5rem;    
+    }
+    #third-section h2{
+        font-size: 1.5rem;
+        padding: 8px 0;    
+    }
+    #fourth-section h2 {
+        font-size: 2rem;
+    }
+    #fifth-section p{
+        font-size: 1rem;
+        text-align: center;
     }
 }
