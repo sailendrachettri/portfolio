@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+    #header{
+        font-size: 2.3rem;
+    }
+    #intro p{
+        font-size: 1.5rem;
+    }
+    #profile-pic img{
+        width: 50%;
+    }
+    .work{
+        width: 36%;
+        margin: 1rem;
+    }
+
+    .skill-box{
+        width: 70%;
+    }
+
+    #left-contact{
+        
+
+    }
+    #right-contact{
+        
+    }
+    #right-contact input{
+        
+    }
+}
