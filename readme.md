@@ -18,5 +18,7 @@ https://sailendrachettri.github.io/portfolio/
 
 ## Screenshots
 
-https://github.com/sailendrachettri/portfolio/blob/main/img/portfolioVersions/portfolioV1.png
+![App Screenshot](https://github.com/sailendrachettri/portfolio/blob/main/img/portfolioVersions/portfolioV1.png)
+
+
 
