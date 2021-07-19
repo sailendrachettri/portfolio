@@ -154,6 +154,8 @@ body{
 .work .desc{
     font-family: var(--fontAll);
     font-weight: 400;
+    text-align: justify;
+    padding: 0 1rem 1rem; /* top left-right bottom*/
 }
 
 /* Third section: skill bar */
