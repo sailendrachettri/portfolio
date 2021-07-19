@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700;900&display=swap');
 
 :root{
-    --font1: 'Merienda One', cursive;
-    --font2: 'Varela Round', sans-serif;
+    --fontAll: 'Exo', sans-serif;
 }
 
 *{
@@ -27,12 +27,13 @@ body{
     margin-top: 3rem;
     font-size: 3rem;
     display: inline-block;
-    font-family: var(--font1);
-    color: white;
+    font-family: var(--fontAll); 
+    font-weight: 900;
+    color: rgb(173, 158, 158);
     cursor: pointer;
     box-shadow: 1px 1px 3px #0e1e3e, -1px -1px 3px #0e1e3e;
     border-radius: 35px;
-    padding: 0 5px;
+    padding: 0 13px;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -46,15 +47,15 @@ body{
 
 #intro span{
     color: #d15fd8;
-    font-weight: 100;
-    font-family: var(--font1);
+    font-weight: 900;
+    font-family: var(--fontAll);
     
 } 
 
 #intro > p{
     font-size: 2rem;
-    font-family: var(--font2);
-    font-weight: 600;
+    font-family: var(--fontAll);
+    font-weight: 700;
     color: white;
 } 
 
@@ -82,7 +83,8 @@ body{
 
 .btn{
     font-size: 1.5rem;
-    font-family: var(--font2);
+    font-family: var(--fontAll);
+    font-weight: 400;
     padding: 3px 10px;
     border: none;
     border-radius: 16px;
@@ -107,7 +109,8 @@ body{
     text-align: center;
     font-size: 2rem;
     padding: 3rem 0 2rem 0;
-    font-family: var(--font1);
+    font-family: var(--fontAll);
+    font-weight: 900;
     color: white;
 }
 
@@ -143,11 +146,14 @@ body{
 .work h3{
     font-size: 1.2rem;
     padding: 10px 0;
-    font-family: var(--font1);
+    font-family: var(--fontAll);
+    font-weight: 700;
+    /* background-color: #0076ee; */
 }
 
 .work .desc{
-    font-family: var(--font2);
+    font-family: var(--fontAll);
+    font-weight: 400;
 }
 
 /* Third section: skill bar */
@@ -158,16 +164,17 @@ body{
 #third-section h2{
     text-align: center;
     font-size: 2rem;
-    font-family: var(--font2);
-    font-weight: 600;
+    font-family: var(--fontAll);
+    font-weight: 700;
     padding: 6% 0 0 0;
     color: white;
 }
 
 .skill-box p{
     font-size: 20px;
-    font-family: var(--font1) ;
+    font-family: var(--fontAll) ;
     color: white;
+    font-weight: 400;
     
 }
 
@@ -223,7 +230,8 @@ body{
 #fourth-section h2{
     text-align: center;
     padding: 3% 0;
-    font-family: var(--font2);
+    font-family: var(--fontAll);
+    font-weight: 700;
     font-size: 2.5rem;
     color: white;
 
@@ -249,7 +257,8 @@ body{
     border: none;
     border-bottom: 1px solid #0076ee;
     margin: 2% 0;
-    font-family: var(--font1);
+    font-family: var(--fontAll);
+    font-weight: 400;
     width: 52%;
 }
 
@@ -262,10 +271,12 @@ body{
     border: none;
     font-size: 15px;
     margin-top: 10px;
-    font-family: var(--font1);
-    color: rgb(16, 76, 133);
+    font-family: var(--fontAll);
+    font-weight: 700;
+    color: rgb(3, 111, 212);
 }
-/* Fourth section: second section - contact*/
+/* Fourth section: second section - contact
+ this section for quick contact eg. linkedin, twitter, etc*/
 /*
 #second-contact{
     display: flex;
@@ -282,7 +293,7 @@ body{
 #second-contact h3{
     text-align: left;
     font-size: 1.4rem;
-    font-family: var(--font1);
+    font-family: var(--fontAll);
     margin: 0 0 10px 0;
 }
 
@@ -299,7 +310,7 @@ body{
 }
 
 .quick p{
-    font-family: var(--font1);
+    font-family: var(--fontAll);
 }
 
 */
@@ -314,6 +325,18 @@ body{
 
 #fifth-section p{
     font-size: 1.5rem;
-    font-family: var(--font1);
+    font-family: var(--fontAll);
+    font-weight: 700;
     color: white;
+}
+
+#fifth-section  p span {
+    font-style: italic;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+}
+
+#fifth-section p span:hover {
+    transform: scale(1.1, 1.1);
+    color: #0076ee;
 }
