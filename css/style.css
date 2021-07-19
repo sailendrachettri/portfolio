@@ -155,7 +155,8 @@ body{
     font-family: var(--fontAll);
     font-weight: 400;
     text-align: justify;
-    padding: 0 1rem 1rem; /* top left-right bottom*/
+    /* padding: 0 1rem 1rem; top left-right bottom */
+    padding: 0 8px;
 }
 
 /* Third section: skill bar */
@@ -262,6 +263,7 @@ body{
     font-family: var(--fontAll);
     font-weight: 400;
     width: 52%;
+    color: whitesmoke;
 }
 
 #first-contact button{
