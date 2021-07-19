@@ -12,7 +12,7 @@ This is my official portfolio website where I put everything which is required t
   
 ## Live URL
 
-https://sailendrachettri.github.io/portfolio/
+https://sailendrachettri.github.io/portfolio/ (work in progress)
 
 
 
