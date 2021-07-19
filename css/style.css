@@ -29,7 +29,7 @@ body{
     display: inline-block;
     font-family: var(--fontAll); 
     font-weight: 900;
-    color: rgb(173, 158, 158);
+    color: white;
     cursor: pointer;
     box-shadow: 1px 1px 3px #0e1e3e, -1px -1px 3px #0e1e3e;
     border-radius: 35px;
